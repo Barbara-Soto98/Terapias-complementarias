@@ -20,5 +20,5 @@ Este proyecto es una página web dedicada a ofrecer servicios de terapias comple
 ## Instalación
 
 ```bash
-git clone url-del-repositorio
-cd nombre-del-proyecto
+git https://github.com/Barbara-Soto98/Terapias-complementarias
+cd Página Web de Emprendimiento de  Terapias Complementarias
