@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.anuncio {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: aquamarine;
+    text-align: center;
+        
+}
+
+
+ul {
+        font-weight: bold; 
+        background-color: #dff5f5 ;
+        display: flex;
+        list-style-type: none;
+                          
+    }
+
+
+ul li a {
+    margin: 25px;
+    display: flex;
+       
+}
+
+
+.logo{
+    width: 50px;
+    float: right; 
+}
+
+
+/*.galeria {
+    width: 280px;
+   
+}*/
+
+.imagenes-centro {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 10vh;
+    padding: 1%;
+    height: auto;
+    max-width: 100%;
+    
+}
+
+.destacadas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.destacadas img {
+    width: calc(30% - 10px); /* Ajusta el ancho para 4 imágenes por fila, y resta espacio */
+    margin-bottom: 20px; /* Espacio entre las filas */
+    object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
+    margin: 20px;
+    height: auto;
+    max-width: 100%;
+    
+}
+
+h1 {
+    font-size: 25px;
+    background-color: beige;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    
+}
+
+h2{
+    font-size: 20px;
+}
+
+footer {
+    background-color: bisque;
+    text-align: end;
+    padding: 12x;
+    display: flex;
+    justify-content: right;
+}
+
+footer a{
+    padding-right: 40px;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #dff5f5 ;
+    font-size: 19px;
+          
+}
+
+body main {
+    margin: 15px;
+}
+
+
+header nav ul li a {
+    color: hsl(249, 80%, 67%);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    align-items: center;
+           
+}
+
+.parrafo-index{
+    margin: 3%;
+    align-items: center;
+    font-size: 19px;
+    font-style: italic;
+}
+
+.direcciones{
+    margin: 10px;
+    text-align: right
+
+}
+
+.boton{
+    background-color: rgb(130, 145, 230);
+    color: rgb(245, 245, 205);
+    border-radius: 3px;
+    padding: 15px;
+    border: none;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       
+}
+
+.boton:hover{
+    color: blue;
+    background-color: rgb(192, 215, 238);
+    text-decoration: solid;
+}
+
+input:focus{
+    background-color: darkcyan;
+    color: bisque;
+}
+
+
+.grid-container {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1Fr);
+    grid-template-rows: repeat(2, 250px);
+    height: 100vh;
+    gap: 15px;
+    align-items: center;
+}
+
+.grid-item-01 {
+    background-color: #F5F5DC;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    overflow: hidden;
+}
+
+.grid-item-02 {
+    background-color: #F5F5DC;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    overflow: hidden;
+}
+
+.grid-item-03 {
+    background-color: #F5F5DC;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    overflow: hidden;
+
+}
+
+.grid-item-04 {
+    background-color: #F5F5DC;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    overflow: hidden;
+}
+
+.grid-item-05 {
+    background-color: #F5F5DC;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    overflow: hidden;
+}
+
+.grid-item-06 {
+    background-color: #F5F5DC;
+    grid-column: 3/4 ;
+    grid-row: 2/3 ;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    overflow: hidden;
+}
+
+.galeria {
+    max-width: 100%;
+    height: auto;
+    width: 20rem;
+}
+
+img:hover{
+    opacity: 0,7;
+    padding: 10px;
+}
+
+
+/* Media query para tablet */
+@media (max-width: 768px) {
+    .anuncio {
+        font-size: 18px; 
+    }
+
+    header {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    ul {
+        flex-direction: column; 
+        padding: 10px 0;
+    }
+
+    ul li a {
+        margin: 10px 0; 
+    }
+
+    .logo {
+        width: 40px; 
+    }
+
+    .imagenes-centro {
+        flex-direction: column; 
+    }
+
+    .destacadas img {
+        width: calc(100% - 10px); 
+        margin: 10px 0; 
+    }
+
+    h1 {
+        font-size: 22px; 
+    }
+
+    .parrafo-index {
+        font-size: 16px; 
+    }
+
+    .boton {
+        font-size: medium; 
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+/* Media query para mobile */
+@media (max-width: 480px) {
+    .anuncio {
+        font-size: 16px; 
+    }
+
+    .logo {
+        width: 30px; 
+    }
+
+    h1 {
+        font-size: 20px; 
+    }
+
+    .parrafo-index {
+        font-size: 14px; 
+    }
+
+    .boton {
+        padding: 10px; 
+    }
+
+    .imagenes-centro {
+        padding: 5%; 
+    }
+
+    .destacadas img {
+        width: 100%; 
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr; 
+    }
+}
