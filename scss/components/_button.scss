@@ -1,0 +1,25 @@
+.boton {
+    background-color: $button-bg-color;
+    color: rgb(245, 245, 205);
+    border-radius: 3px;
+    padding: 15px;
+    border: none;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+    &:hover {
+      color: blue;
+      background-color: $button-hover-bg-color;
+      text-decoration: solid;
+    }
+  }
+  
+  input:focus {
+    background-color: darkcyan;
+    color: bisque;
+  }
+  

@@ -1,0 +1,36 @@
+// Media query para tablet
+@media (max-width: 768px) {
+    .anuncio { font-size: 18px; }
+  
+    header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    ul {
+      flex-direction: column;
+      padding: 10px 0;
+  
+      li a { margin: 10px 0; }
+    }
+  
+    .logo { width: 40px; }
+  
+    .imagenes-centro { flex-direction: column; }
+  
+    .destacadas img {
+      width: calc(100% - 10px);
+      margin: 10px 0;
+    }
+  
+    h1 { font-size: 22px; }
+  
+    .parrafo-index { font-size: 16px; }
+  
+    .boton { font-size: medium; }
+  
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  

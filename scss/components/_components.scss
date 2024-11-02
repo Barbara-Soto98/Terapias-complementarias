@@ -1,0 +1,93 @@
+@import "../utilities/mixin";
+
+
+.anuncio {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: $highlight-color; // Cambié $accent-color por $highlight-color
+    text-align: center;
+  }
+  
+  ul {
+    font-weight: bold;
+    background-color: $primary-bg-color;
+    display: flex;
+    list-style-type: none;
+  
+    li {
+      a {
+        margin: 25px;
+        display: flex;
+      }
+    }
+  }
+  
+  .imagenes-centro {
+    @include center-flex;
+    height: 10vh;
+    padding: 1%;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  .destacadas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+    img {
+      width: calc(30% - 10px);
+      margin-bottom: 20px;
+      object-fit: cover;
+      margin: 20px;
+      height: auto;
+      max-width: 100%;
+    }
+  }
+  
+  footer {
+    background-color: $secondary-bg-color;
+    text-align: end;
+    padding: 12px;
+    display: flex;
+    justify-content: right;
+  
+    a {
+      padding-right: 40px;
+    }
+  }
+  
+  body {
+    font-family: $font-primary;
+    background-color: $primary-bg-color;
+    font-size: 19px;
+  
+    main {
+      margin: 15px;
+    }
+  }
+  
+  .parrafo-index {
+    margin: 3%;
+    align-items: center;
+    font-size: 19px;
+    font-style: italic;
+  }
+  
+  .direcciones {
+    margin: 10px;
+    text-align: right;
+  }
+  
+  
+h1 {
+  font-size: 25px;
+  background-color: $highlight-color;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}

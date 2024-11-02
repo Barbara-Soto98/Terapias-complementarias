@@ -1,0 +1,19 @@
+// Media query para mobile
+@media (max-width: 480px) {
+    .anuncio { font-size: 16px; }
+  
+    .logo { width: 80px; }
+  
+    h1 { font-size: 20px; }
+  
+    .parrafo-index { font-size: 14px; }
+  
+    .boton { padding: 10px; }
+  
+    .imagenes-centro { padding: 5%; }
+  
+    .destacadas img { width: 100%; }
+  
+    .grid-container { grid-template-columns: 1fr; }
+  }
+  
