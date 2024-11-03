@@ -258,7 +258,7 @@ header nav ul li a {
     font-size: 16px;
   }
   .logo {
-    width: 80px;
+    width: 70px !important;
   }
   h1 {
     font-size: 20px;
@@ -274,9 +274,10 @@ header nav ul li a {
   }
   .destacadas img {
     width: 100%;
+    object-fit: cover;
   }
   .grid-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 @media (max-width: 768px) {
@@ -284,7 +285,7 @@ header nav ul li a {
     font-size: 18px;
   }
   header {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
   ul {
@@ -295,7 +296,7 @@ header nav ul li a {
     margin: 10px 0;
   }
   .logo {
-    width: 40px;
+    width: 80px !important;
   }
   .imagenes-centro {
     flex-direction: column;
@@ -314,7 +315,7 @@ header nav ul li a {
     font-size: medium;
   }
   .grid-container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 

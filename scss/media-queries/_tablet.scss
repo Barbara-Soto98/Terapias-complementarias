@@ -3,7 +3,7 @@
     .anuncio { font-size: 18px; }
   
     header {
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
     }
   
@@ -14,7 +14,7 @@
       li a { margin: 10px 0; }
     }
   
-    .logo { width: 40px; }
+    .logo { width: 80px !important; }
   
     .imagenes-centro { flex-direction: column; }
   
@@ -30,7 +30,7 @@
     .boton { font-size: medium; }
   
     .grid-container {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
     }
   }
   

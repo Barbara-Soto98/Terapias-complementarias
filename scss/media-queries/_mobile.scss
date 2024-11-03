@@ -2,7 +2,7 @@
 @media (max-width: 480px) {
     .anuncio { font-size: 16px; }
   
-    .logo { width: 80px; }
+    .logo { width: 70px !important;}
   
     h1 { font-size: 20px; }
   
@@ -12,8 +12,14 @@
   
     .imagenes-centro { padding: 5%; }
   
-    .destacadas img { width: 100%; }
-  
-    .grid-container { grid-template-columns: 1fr; }
+    .destacadas img { width: 100%;
+    object-fit: cover; }
+
+     
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
   }
-  
+
+    
