@@ -1,0 +1,11 @@
+footer {
+    background-color: $secondary-bg-color;
+    text-align: end;
+    padding: 12px;
+    display: flex;
+    justify-content: right;
+  
+    a {
+      padding-right: 40px;
+    }
+  }

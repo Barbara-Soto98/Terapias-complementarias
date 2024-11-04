@@ -28,12 +28,20 @@
     padding: 1%;
     height: auto;
     max-width: 100%;
+    overflow: hidden;
+    transition: 1s;
+    &:hover{
+      transform: translateX(20px);
+    }
+
+    
   }
   
   .destacadas {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
   
     img {
       width: calc(30% - 10px);
@@ -42,20 +50,11 @@
       margin: 20px;
       height: auto;
       max-width: 100%;
+      
     }
   }
   
-  footer {
-    background-color: $secondary-bg-color;
-    text-align: end;
-    padding: 12px;
-    display: flex;
-    justify-content: right;
   
-    a {
-      padding-right: 40px;
-    }
-  }
   
   body {
     font-family: $font-primary;

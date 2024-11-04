@@ -1,0 +1,21 @@
+@keyframes CambiarColorLetrasAnuncio {
+    0% {
+        color: #9acaf1;
+    }
+
+    50% {
+        color: #3e8ecf;
+    }
+
+    100% {
+        color: #0a3a61;
+    }
+}
+
+.anuncio {
+    animation-name: CambiarColorLetrasAnuncio ;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}

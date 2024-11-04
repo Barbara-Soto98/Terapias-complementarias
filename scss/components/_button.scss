@@ -1,25 +1,47 @@
+@import "../utilities/variables";
+
 .boton {
-    background-color: $button-bg-color;
-    color: rgb(245, 245, 205);
-    border-radius: 3px;
-    padding: 15px;
-    border: none;
-    display: inline-block;
-    margin: 5px;
-    cursor: pointer;
-    margin-top: 20px;
-    font-size: small;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
-    &:hover {
-      color: blue;
-      background-color: $button-hover-bg-color;
-      text-decoration: solid;
+  background-color: $button-bg-color;
+  color: rgb(245, 245, 205);
+  border-radius: 3px;
+  padding: 15px;
+  border: none;
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: small;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  .button {
+  background-color: rgb(180, 180, 240);
+  color: white;
+  padding: 10px 20px;
+  transition: background-color 0.5s ease;
+}
+
+ &:hover {
+    color: rgb(12, 75, 83);
+    background-color: darkcyan;
+    text-decoration: solid;
+  }
+}
+
+input:focus {
+  background-color: darkcyan;
+  color: bisque;
+}
+
+
+.btn {
+  background-color: darkcyan;
+  color: rgb(9, 74, 77);
+  border: none; 
+  border-radius: 5px ;
+  cursor: pointer;
+  transition: 0.5s ease;
+    
+  &:hover {
+  background-image: linear-gradient(to left,rgb(241, 229, 229), rgb(127, 199, 175));
+  color: rgb(9, 74, 77) ;
     }
   }
-  
-  input:focus {
-    background-color: darkcyan;
-    color: bisque;
-  }
-  
