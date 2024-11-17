@@ -25,13 +25,14 @@
   .imagenes-centro {
     @include center-flex;
     height: 10vh;
-    padding: 1%;
     height: auto;
     max-width: 100%;
     overflow: hidden;
     transition: 1s;
     &:hover{
-      transform: translateX(20px);
+      transform: translateY(10px);
+      transition: 1s;
+      
     }
 
     
@@ -71,6 +72,7 @@
     align-items: center;
     font-size: 19px;
     font-style: italic;
+    text-align: center;
   }
   
   .direcciones {
@@ -89,4 +91,13 @@ h1 {
 
 h2 {
   font-size: 20px;
+}
+
+.listado-profesionales-terapias {
+  padding: 20px;
+  margin: 20px;
+
+  div {
+    padding: 10px;
+  }
 }
