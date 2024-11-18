@@ -3,30 +3,55 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    text-decoration: none;
+    text-decoration: none; 
+    background-color: #FDF8F8;
+    
   
-    nav {
-      ul {
-        font-weight: bold;
-        background-color: $primary-bg-color;
-        display: flex;
-        list-style-type: none;
-  
-        li {
-          a {
-            margin: 25px;
-            display: flex;
-            color: #145386;
-            text-decoration: none;
-            font-family: Arial, Helvetica, sans-serif;
-          }
-        }
-      }
+ 
+  .navbar {
+    background-color: #FDF8F8;
+    .navbar-brand,
+    .nav-link {
+      color: darkcyan !important;
+      font-weight: bold;
+      font-size: large !important;
+    }
+    .nav-link.active{
+      color: darkcyan !important;
     }
   }
+       
   
+    .nav-link {
+      color: darkcyan;         // Color de los enlaces
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+      }
+     }
+
+
+
   .logo {
     width: 50px;
     float: right;
   }
+
+ .nombre-empresa{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    .logo {
+      margin-right: 10px;      
+      width: 50px; 
+
+    }
+    span {
+      font-size: 14px;         
+      font-weight: bold;       
+      color: darkcyan;   
+      font-style: italic;     
+
+    }
   
+ }
+
