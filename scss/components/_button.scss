@@ -20,8 +20,8 @@
 }
 
  &:hover {
-    color: rgb(12, 75, 83);
-    background-color: darkcyan;
+    color: rgb(104, 174, 184);
+    background-color: rgb(74, 138, 138);
     text-decoration: solid;
   }
 }
@@ -33,8 +33,8 @@ input:focus {
 
 
 .btn {
-  background-color: darkcyan;
-  color: rgb(9, 74, 77);
+  background-color: rgb(109, 184, 184);
+  color: rgb(255, 255, 255);
   border: none; 
   border-radius: 5px ;
   cursor: pointer;
@@ -42,6 +42,6 @@ input:focus {
     
   &:hover {
   background-image: linear-gradient(to left,rgb(241, 229, 229), rgb(127, 199, 175));
-  color: rgb(9, 74, 77) ;
+  color: rgb(49, 114, 117) ;
     }
   }

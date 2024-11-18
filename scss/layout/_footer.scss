@@ -1,11 +1,58 @@
-footer {
-    background-color: $secondary-bg-color;
-    text-align: end;
-    padding: 12px;
+  footer {
     display: flex;
-    justify-content: right;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en pantallas pequeñas */
+    justify-content: space-between; /* Distribuye los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    padding: 10px;
+    background-color: $secondary-bg-color; 
+    color: darkcyan; 
+      
+    .direcciones {
+      flex: 1 1 40%; /* Ocupa un 40% del espacio en pantallas grandes */
+      margin-bottom: 5px;
+  
+      h2 {
+        font-size: 1rem;
+        margin-bottom: 5px;
+      }
+  
+      div {
+        font-size: 1rem;
+      }
+    }
+  
+    .logo {
+      flex: 0 0 auto; /* Mantiene el tamaño fijo para el logo */
+      max-width: 150px; /* Controla el tamaño máximo del logo */
+      margin: 5px;
+    }
   
     a {
-      padding-right: 40px;
+      flex: 0 0 auto; /* Mantiene el tamaño fijo */
+      color: #3498db; /* Enlace azul */
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: bold;
+  
+      &:hover {
+        color: #0c6c79; /* Cambia a blanco al pasar el mouse */
+        text-decoration: underline;
+      }
     }
+    .redes-sociales {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+
+    .redes-sociales img {
+      flex: 0 0 auto; /* Mantiene el tamaño fijo para el logo */
+      max-width: 80px; /* Controla el tamaño máximo del logo */
+      margin: 5px;
+      justify-content: left;
+    }
+  
+    
   }
+  

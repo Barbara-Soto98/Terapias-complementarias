@@ -1,6 +1,23 @@
 // Media query para tablet
 @media (max-width: 768px) {
     .anuncio { font-size: 18px; }
+
+    footer {
+      flex-direction: column; /* Cambia a layout en columna */
+      text-align: center;
+  
+      .direcciones {
+        flex: 1 1 auto;
+      }
+  
+      .logo {
+        margin: 10px auto;
+      }
+  
+      a {
+        margin-top: 10px;
+      }
+    }
   
     header {
       flex-direction: row;
@@ -33,4 +50,6 @@
       grid-template-columns: repeat(3, 1fr);
     }
   }
+
+ 
   

@@ -25,8 +25,8 @@
   transition: background-color 0.5s ease;
 }
 .boton:hover {
-  color: rgb(12, 75, 83);
-  background-color: darkcyan;
+  color: rgb(104, 174, 184);
+  background-color: rgb(74, 138, 138);
   text-decoration: solid;
 }
 
@@ -36,8 +36,8 @@ input:focus {
 }
 
 .btn {
-  background-color: darkcyan;
-  color: rgb(9, 74, 77);
+  background-color: rgb(109, 184, 184);
+  color: rgb(255, 255, 255);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -45,19 +45,19 @@ input:focus {
 }
 .btn:hover {
   background-image: linear-gradient(to left, rgb(241, 229, 229), rgb(127, 199, 175));
-  color: rgb(9, 74, 77);
+  color: rgb(49, 114, 117);
 }
 
 .anuncio {
   font-size: 20px;
   font-weight: bold;
-  background-color: beige;
+  background-color: rgb(229, 241, 241);
   text-align: center;
 }
 
 ul {
   font-weight: bold;
-  background-color: rgb(188, 250, 250);
+  background-color: rgb(253, 248, 248);
   display: flex;
   list-style-type: none;
 }
@@ -97,8 +97,9 @@ ul li a {
 
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: rgb(188, 250, 250);
+  background-color: rgb(253, 248, 248);
   font-size: 19px;
+  color: darkcyan;
 }
 body main {
   margin: 15px;
@@ -114,12 +115,12 @@ body main {
 
 .direcciones {
   margin: 10px;
-  text-align: right;
+  text-align: left;
 }
 
 h1 {
   font-size: 25px;
-  background-color: beige;
+  background-color: rgb(229, 241, 241);
   text-align: center;
   padding: 10px;
   margin-bottom: 30px;
@@ -257,7 +258,7 @@ header {
 }
 header nav ul {
   font-weight: bold;
-  background-color: rgb(188, 250, 250);
+  background-color: rgb(253, 248, 248);
   display: flex;
   list-style-type: none;
 }
@@ -275,14 +276,52 @@ header nav ul li a {
 }
 
 footer {
-  background-color: rgb(241, 241, 194);
-  text-align: end;
-  padding: 12px;
   display: flex;
-  justify-content: right;
+  flex-wrap: wrap; /* Permite que los elementos se ajusten en pantallas pequeñas */
+  justify-content: space-between; /* Distribuye los elementos horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  padding: 10px;
+  background-color: rgb(229, 241, 241);
+  color: darkcyan;
+}
+footer .direcciones {
+  flex: 1 1 40%; /* Ocupa un 40% del espacio en pantallas grandes */
+  margin-bottom: 5px;
+}
+footer .direcciones h2 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+footer .direcciones div {
+  font-size: 1rem;
+}
+footer .logo {
+  flex: 0 0 auto; /* Mantiene el tamaño fijo para el logo */
+  max-width: 150px; /* Controla el tamaño máximo del logo */
+  margin: 5px;
 }
 footer a {
-  padding-right: 40px;
+  flex: 0 0 auto; /* Mantiene el tamaño fijo */
+  color: #3498db; /* Enlace azul */
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+footer a:hover {
+  color: #0c6c79; /* Cambia a blanco al pasar el mouse */
+  text-decoration: underline;
+}
+footer .redes-sociales {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+footer .redes-sociales img {
+  flex: 0 0 auto; /* Mantiene el tamaño fijo para el logo */
+  max-width: 80px; /* Controla el tamaño máximo del logo */
+  margin: 5px;
+  justify-content: left;
 }
 
 .formulario {
@@ -371,6 +410,19 @@ footer a {
 @media (max-width: 768px) {
   .anuncio {
     font-size: 18px;
+  }
+  footer {
+    flex-direction: column; /* Cambia a layout en columna */
+    text-align: center;
+  }
+  footer .direcciones {
+    flex: 1 1 auto;
+  }
+  footer .logo {
+    margin: 10px auto;
+  }
+  footer a {
+    margin-top: 10px;
   }
   header {
     flex-direction: row;
