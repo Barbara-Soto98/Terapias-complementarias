@@ -1,7 +1,7 @@
 # Página Web de Emprendimiento de  Terapias Complementarias
 
 ## Descripción
-Este proyecto es una página web dedicada a ofrecer servicios de terapias complementarias. El sitio está diseñado para presentar dar a conocer al equipo, gestionar reservas de horas y proporcionar información e imágenes relevantes sobre la empresa.
+Este proyecto consiste en una página web dedicada a ofrecer servicios de terapias complementarias. El sitio está diseñado para dar a conocer al equipo, gestionar reservas de horas y proporcionar información relevante, direcciones, servicios e imágenes relevantes de las instalaciones. 
 
 ## Tecnologías Utilizadas
 - **HTML**: Para la estructura del contenido.
