@@ -1,6 +1,6 @@
 @import "../utilities/mixin";
 
-
+//Componentes 
 .anuncio {
     font-size: 20px;
     font-weight: bold;
@@ -33,17 +33,14 @@
       transform: translateY(10px);
       transition: 1s;
       
-    }
-
-    
+    }   
   }
   
   .destacadas {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
-  
+   
     img {
       width: calc(30% - 10px);
       margin-bottom: 20px;
@@ -53,9 +50,7 @@
       max-width: 100%;
       
     }
-  }
-  
-  
+  } 
   
   body {
     font-family: $font-primary;

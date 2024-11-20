@@ -1,3 +1,5 @@
+//Formulario de contacto//
+
 .formulario {
     width: $form-width;
     padding: 20px;
@@ -5,8 +7,6 @@
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     
-    
-  
     .mb-3 {
       margin-bottom: 15px;
   
@@ -30,7 +30,8 @@
         }
       }
     }
-  
+
+    //Botón para enviar formulario//
     .boton {
       display: block;
       width: 100%;
@@ -51,10 +52,10 @@
   
   .contenedor-formulario{
     display: flex;
-  justify-content: center; /* Centra horizontalmente */
-  align-items: center;    /* Centra verticalmente */
-  height: 100vh;          /* Ocupa toda la altura de la ventana */
-  margin: 0;              /* Elimina márgenes por defecto */
+  justify-content: center;      
+  align-items: center;      
+  height: 100vh;            
+  margin: 0;                
   }
 
   .h2-formulario{
